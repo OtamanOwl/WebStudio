@@ -1,0 +1,36 @@
+*{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.nav-link{
+    color: #212121;
+}
+.nav-link:focus,
+.nav-link:hover{
+    color: #2196F3;
+}
+.scndheader{
+    background-color: #2F303A;
+}
+.scnd-title,
+.scnd-button{
+    color: white;
+}
+.scnd-button{
+    background-color: #2196F3;
+}
+span{
+    color: #757575;
+}
+footer{
+    background-color: #2F303A;
+}
+.footer{
+    color: rgba(255, 255, 255, 0.60);
+}
+.address{
+    color: #fff;
+}
