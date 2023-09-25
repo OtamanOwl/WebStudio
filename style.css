@@ -1,3 +1,11 @@
+:root {
+    --basic-background: #2F303A;
+    --secondary-color: #2196F3;
+    --basic-title: #fff;
+    --basic-link: #212121;
+    --basic-text: #757575;
+    --footer-text-color: rgba(255, 255, 255, 0.60);
+}
 *{
     list-style: none;
 }
@@ -6,31 +14,31 @@ a{
     text-decoration: none;
 }
 .nav-link{
-    color: #212121;
+    color: var(--basic-link);
 }
 .nav-link:focus,
 .nav-link:hover{
-    color: #2196F3;
+    color: var(--secondary-color);
 }
 .scndheader{
-    background-color: #2F303A;
+    background-color: var(--basic-background);
 }
 .scnd-title,
 .scnd-button{
-    color: white;
+    color: var(--basic-title);
 }
 .scnd-button{
-    background-color: #2196F3;
+    background-color: var(--secondary-color);
 }
 span{
-    color: #757575;
+    color: var(--basic-text);
 }
 footer{
-    background-color: #2F303A;
+    background-color: var(--basic-background);
 }
 .footer{
-    color: rgba(255, 255, 255, 0.60);
+    color: var(--footer-text-color);
 }
 .address{
-    color: #fff;
+    color: var(--basic-title);
 }
