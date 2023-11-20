@@ -13,6 +13,9 @@
 a{
     text-decoration: none;
 }
+body{
+    font-family: 'roboto', sans-serif;
+}
 .nav-link{
     color: var(--basic-link);
 }
@@ -22,6 +25,11 @@ a{
 }
 .scndheader{
     background-color: var(--basic-background);
+}
+.scnd-title{
+    font-size: 44;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 .scnd-title,
 .scnd-button{
@@ -41,4 +49,14 @@ footer{
 }
 .address{
     color: var(--basic-title);
+}
+.ul-nav{
+    display: flex;
+
+}
+.header-ul{
+    display: flex;
+}
+.port-button{
+    display: flex;
 }
