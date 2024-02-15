@@ -13,8 +13,9 @@
           crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
           rel="stylesheet">
+          <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet"
-          href="style.css">
+          href="./style/style.css">
 </head>
 
 <body>
@@ -79,12 +80,12 @@
         <section class="work">
             <div class="container">
                 <h2 class="section-title">Чим ми займаємося</h2>
-                <ul>
-                    <li><img src="img/image1.png"
+                <ul class="work-list">
+                    <li class="work-item"><img src="img/image1.png"
                              alt="img1"></li>
-                    <li><img src="img/image2.png"
+                    <li class="work-item"><img src="img/image2.png"
                              alt="img2"></li>
-                    <li><img src="img/image3.png"
+                    <li class="work-item"><img src="img/image3.png"
                              alt="img3"></li>
                 </ul>
             </div>
@@ -92,49 +93,106 @@
         <section class="team">
             <div class="container">>
                 <h2 class="section-title">Наша команда</h2>
-                <ul>
-                    <li>
-                        <img src="img/imgT1.jpg"
+                <ul class="team-list">
+                    <li class="team-item">
+                        <img class="team-item-img"
+                             src="img/imgT1.jpg"
                              alt="team1">
-                        <p>Ігор Дем'яненко</p>
-                        <p><span>Product Designer</span></p>
+                        <div class="descrb">
+                            <p class="team-list-name">Ігор Дем'яненко</p>
+                            <p class="team-post">Product Designer</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="img/imgT2.jpg"
+                    <li class="team-item">
+                        <img class="team-item-img"
+                             src="img/imgT2.jpg"
                              alt="team2">
-                        <p>Ольга Рєпіна</p>
-                        <p><span>Frontend Developer</span></p>
+                        <div class="descrb">
+                            <p class="team-list-name">Ольга Рєпіна</p>
+                            <p class="team-post">Frontend Developer</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="img/imgT3.jpg"
+                    <li class="team-item">
+                        <img class="team-item-img"
+                             src="img/imgT3.jpg"
                              alt="team3">
-                        <p>Микола Тарасов</p>
-                        <p><span>Marketing</span></p>
+                        <div class="descrb">
+                            <p class="team-list-name">Микола Тарасов</p>
+                            <p class="team-post">Marketing</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="img/imgT4.jpg"
+                    <li class="team-item">
+                        <img class="team-item-img"
+                             src="img/imgT4.jpg"
                              alt="team4">
-                        <p>Михайло Єрмаков</p>
-                        <p><span>UI Designer</span></p>
+                        <div class="descrb">
+                            <p class="team-list-name">Михайло Єрмаков</p>
+                            <p class="team-post">UI Designer</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="clients">
+            <div class="container">
+                <h2 class="section-title">Постійні клієнти</h2>
+                <ul class="clients-list">
+                    <li class="clients-item">
+                        <a href="#"
+                           class="clients-link">
+
+                        </a>
+                    </li>
+                    <li class="clients-item">
+                        <a href="#"
+                           class="clients-link">
+
+                        </a>
+                    </li>
+                    <li class="clients-item">
+                        <a href="#"
+                           class="clients-link">
+
+                        </a>
+                    </li>
+                    <li class="clients-item">
+                        <a href="#"
+                           class="clients-link">
+
+                        </a>
+                    </li>
+                    <li class="clients-item">
+                        <a href="#"
+                           class="clients-link">
+
+                        </a>
+                    </li>
+                    <li class="clients-item">
+                        <a href="#"
+                           class="clients-link">
+
+                        </a>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
-    <footer>
-        <address>
-            <ul>
-                <li><a href="index.html"><img src="img/logo.svg"
-                             alt="logo"
-                             class="footer-logo"></a></li>
-                <li><a class="address"
-                       href="#">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li><a class="footer"
-                       href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="footer"
-                       href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+    <footer class="footer">
+        <div class="container">
+            <a href="index.html"><img src="img/logo.svg"
+                     alt="logo"
+                     class="footer-logo"></a></li>
+            <address class="address">
+                <ul class="footer-list">
+                    <li class="address-item"><a class="address"
+                           href="https://maps.app.goo.gl/s9TqwZWnr8oaDZ8S9">м. Київ, пр-т Лесі Українки, 26</a></li>
+                    <li class="address-item"><a class="link"
+                           href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="address-item"><a class="link"
+                           href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 
